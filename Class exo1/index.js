@@ -12,7 +12,7 @@ class Imc {
     }
 
     display() {
-        console.log(this.nom, "(", this.poids, this.taille, ") a un IMC de:", this.calculImc());
+        console.log(`${this.nom} (${this.poids} kg, ${this.taille} M) a un IMC de: ${this.calculImc()}`);
     }
 }
 
