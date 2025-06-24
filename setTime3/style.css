@@ -1,0 +1,31 @@
+#myDiv {
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    top: 0px;
+    left: 0px;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+}
+
+#finish {
+    display: none; /* Tu peux passer à 'flex' quand tu veux l'afficher */
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
