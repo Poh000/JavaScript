@@ -10,7 +10,7 @@ async function listePokemon(){
         liste.appendChild(li);
         console.log(result.results[i].name);
     }
-    liste.style.background=("yellow");
+    liste.style.background=("yellow");  
     liste.style.width=("200"+"px");
 }
 
