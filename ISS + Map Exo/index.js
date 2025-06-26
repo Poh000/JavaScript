@@ -5,7 +5,7 @@ async function ISS() {
     let longitude = result.iss_position.longitude;
     console.log(latitude, longitude);
 
-    let map = L.map('map').setView([latitude, longitude], 8);
+    let map = L.map('map').setView([latitude, longitude], 2);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
