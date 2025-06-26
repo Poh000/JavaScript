@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    display: none;
+}
+
+form input {
+    margin: 5px;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+#inscription {
+    margin-top: 50px;
+}
